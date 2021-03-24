@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;700&display=swap');
+
+
+
+body {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+
+.caixa {
+    width: 100%;
+    height: 80px;
+    background: #161b22;
+    padding-top: 15px;
+}
+
+.cabecalho h3 {
+    float: left;
+    color: white;
+    font-family:'Open Sans';
+}
+
+.cabecalho li {
+    display: inline;
+    color: white;
+    float: right;
+    margin: 20px;
+    font-family: 'Open Sans';
+}
+
+
+.cabecalho {
+    max-width: 1400px;
+    height: 100%;
+    margin: 0 auto;
+}
+
+#palavra_projeto {
+    color: orangered;
+}
+
+#palavra_home {
+    color: orangered;
+}
+
+ul {
+    list-style: none;
+}
