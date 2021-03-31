@@ -12,12 +12,20 @@ body {
 .caixa {
     width: 100%;
     height: 90px;
-    background: #161b22;
+    background: #232323;
     padding-top: 15px;
 }
 
-.cabecalho h1 {
+.titulo {
     float: left;
+}
+
+.lista {
+    float: right;
+    padding-top: 10px;
+}
+
+.cabecalho h1 {
     color: white;
     font-family:'Open Sans';
 }
@@ -25,7 +33,6 @@ body {
 .cabecalho li {
     display: inline;
     color: white;
-    float: right;
     margin: 20px;
     font-family: 'Open Sans';
 }
@@ -39,6 +46,12 @@ body {
 
 #palavra_laranja {
     color: orangered;
+}
+
+.linha_laranja {
+    height: 5px;
+    width: 100%;
+    background: orangered;
 }
 
 
@@ -59,8 +72,10 @@ ul {
     float: right;
     background: orangered;
     color: white;
-    height: 20px;
+    height: 26px;
+    width: 60px;
     margin-top: 20px;
+    border: none;
 
 }
 
@@ -75,3 +90,59 @@ ul {
     color: white;
     font-family:'Open Sans';
 }
+
+.apresentacao {
+    min-height: 400px;
+    height: 100%;
+    background-image: url(./team.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    padding-top: 150px;
+}
+
+.apresentacao .cabecalho h1 {
+    margin: 0;
+    color: orangered;
+}
+
+.apresentacao .cabecalho p {
+    color: white;
+    font-size: 25px;
+    font-family: 'Open Sans';
+}
+
+.rodapé {
+    height: 90px;
+    width: 100%;
+    background: orangered;
+    color: white;
+    text-align: center;
+    font-family: 'Open sans';
+    padding-top: 35px;
+}
+
+
+.faixa_valores {
+    width: 100%;
+    min-height: 400px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: flex-start;
+}
+
+.faixa_valores img {
+    width: 185px;
+}
+
+.icones {
+    display: flex;
+    align-items:center;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    font-family: 'Open Sans';
+    font-size: ;
+}
+
