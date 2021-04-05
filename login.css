@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;700&display=swap');
+
+.pag-login {
+    background-color: #ecf0f1;
+    text-align: center;
+    padding: 50px 0;
+    min-height: 650px;
+    padding-top: 200px;
+}
+
+.box-login {
+    display: inline-block;
+    background-color: white;
+    box-shadow: 3px 3px 5px 2px #ccc;
+    padding: 60px 20px 0px 20px;
+    border-radius: 20px;
+    width: 500px;
+    height: 300px;
+    font-family: 'Open sans';
+}
+
+.pag-login .input-padrao {
+    width: 50%;
+    display: inline-block;
+    height: 30px;
+}
+
+.btn-green {
+    color: white;
+    background-color: green;
+    margin: 20px 0 50px 0;
+    border: 0;
+    padding: 10px 20px;
+
+    border-radius: 5px;
+    float: left;
+    cursor: pointer;
+}
+
+.pag-login .btn-green {
+    display: block;
+    float: none;
+    margin: auto;
+}
