@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;700&display=swap');
+
+
+.pag-cadastro {
+    width: 100%;
+    min-height: 750px;
+    background-color: #ecf0f1;
+}
+
+.btn-green {
+    color: white;
+    background-color: green;
+    margin: 20px 0 50px 0;
+    border: 0;
+    padding: 10px 20px;
+    border-radius: 5px;
+    float: left;
+    cursor: pointer;
+}
+
+.itens-cadastro {
+   float: left;
+   font-family: 'Open sans';
+}
+
+.img-cadastro {
+   float: right;
+   padding-top: 80px;
+}
+
+.img-cadastro img {
+    float: right;
+}
+
+.input {
+    height: 30px;
+    width: 500px;
+}
